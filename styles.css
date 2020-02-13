@@ -1,0 +1,61 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700&display=swap');
+
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #2A2A2A;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.txtb {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(255,255,255,0.5);
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: normal;
+
+}
+
+.task {
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.task i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.comp .task {
+    background: rgb(0,0,0,0.5);
+    color: #fff;
+}
